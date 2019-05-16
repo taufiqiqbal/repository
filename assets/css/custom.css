@@ -1,0 +1,56 @@
+.keywords {
+   margin: 0;
+   padding-left: 0;
+   list-style: none;
+   margin-bottom: -15px;
+   padding-top: 5px;
+}
+
+.keywords li {
+   display: inline;
+   padding-left: 15px;
+   border: 1px solid #eee;
+}
+
+.keywords li>span.keywords-label {
+   padding-right: 10px;
+}
+
+.keywords li>span.keywords-delete {
+   padding-right: 13px;
+   cursor: pointer;
+}
+
+.list-icons li span.badge {
+   float: right;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.autocomplete {
+   position: relative;
+   display: inline-block;
+}
+
+.autocomplete-items {
+   position: absolute;
+   border: 1px solid #d4d4d4;
+   border-top: none;
+   z-index: 99;
+   left: 0;
+   right: 0;
+   background: #f7f7f7;
+   font-size: 15px;
+   font-weight: 400;
+   padding: 5px;
+   cursor: pointer;
+}
+
+.autocomplete-items div:hover {
+   background: #fff;
+   font-weight: bold;
+}
+
+.form-group {
+   margin-bottom: 5px !important;
+}
